@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lyrdy/docs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="config/colors.css">
+  <link rel="stylesheet" href="static/css.css">
+</head>
+<body>
+  <div class="loading" id="loading">
+    <div class="loading-spinner"></div>
+  </div>
+
+  <header>
+    <div class="logo-container" id="logo-home">
+      <img src="" alt="Logo" class="logo" id="logo-image">
+    </div>
+    
+    <div class="search-container">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-bar" id="search-bar" placeholder="">
+    </div>
+    
+    <nav class="navbar">
+      <a href="#" class="nav-link" id="nav-home"></a>
+      <a href="#" class="nav-link" id="nav-billing"></a>
+      <a href="#" class="nav-link" id="nav-github"></a>
+    </nav>
+  </header>
+
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-popup">
+      <div class="search-results" id="search-results">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <button class="sidebar-toggle" id="sidebar-toggle"></button>
+    <div class="sidebar" id="sidebar">
+    </div>
+
+    <div class="main-content">
+      <div class="hashtags-filter" id="hashtags-filter">
+        <div class="hashtags-filter-title">
+          <span id="hashtags-title"></span>
+          <span class="clear-filters" id="clear-filters"></span>
+        </div>
+        <div id="hashtags-list"></div>
+      </div>
+      <div class="doc-content" id="doc-content">
+        <h1 class="doc-title" id="doc-title"></h1>
+        <p id="doc-description"></p>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p id="footer-text"></p>
+  </footer>
+
+  <script src="static/text.js"></script>
+  <script src="static/js.js"></script>
+</body>
+</html>

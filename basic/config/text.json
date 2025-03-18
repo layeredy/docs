@@ -1,0 +1,33 @@
+{
+    "documentTitle": "Docs Site",
+    "logo": {
+      "imageUrl": "https://cdn.layeredy.com/wordmark.png",
+      "altText": "Company Logo",
+      "linkUrl": "/"
+    },
+    "searchPlaceholder": "Search documentation... (Press '/' to focus)",
+    "navigation": {
+      "home": {
+        "text": "Home",
+        "url": "/home"
+      },
+      "billing": {
+        "text": "Billing",
+        "url": "/billing"
+      },
+      "github": {
+        "text": "GitHub",
+        "url": "https://github.com/layeredy/docs"
+      }
+    },
+    "sidebarToggle": "≡",
+    "hashtagsFilter": {
+      "title": "Filter by hashtags:",
+      "clearFilters": "Clear filters"
+    },
+    "welcome": {
+      "title": "Welcome to Documentation",
+      "description": "Select a category and document from the sidebar to get started."
+    },
+    "copyright": "Copyright © 2025 Company Name"
+  }
